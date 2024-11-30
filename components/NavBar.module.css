@@ -1,0 +1,27 @@
+.NavBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, black, #3B3012);
+    font-size: 1.5em;
+    color: #C7A87E;
+    z-index: 99;
+}
+
+.RightSide{
+    list-style-type: none;
+    margin-right: 2em;
+    display: flex;
+}
+
+.RightSide p{
+    margin-left: 2em;
+    color: #C7A87E;
+}
+
+.LeftSide{
+    margin-left: 2em;
+    color: #C7A87E;
+}

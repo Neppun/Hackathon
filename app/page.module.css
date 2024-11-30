@@ -1,0 +1,84 @@
+.main {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+.image {
+flex: 0 0 40%; /* Image takes 40% of the container width */
+position: relative; /* Required for Next.js Image */
+border-radius: 20px;
+}
+
+.image img{
+    border-radius: 30px;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust the container width as needed */
+  }
+  
+.description {
+    flex: 1; /* Take up remaining space */
+    text-align: center;
+}
+
+.title {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #E8871F;
+    margin:0;
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #C7A87E;
+    margin: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: 5rem; /* Override for very small screens */
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .title {
+        font-size: 4rem; /* Override for very small screens */
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .title {
+        font-size: 3rem; /* Override for very small screens */
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 670px) {
+    .title {
+        font-size: 2rem; /* Override for very small screens */
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+}

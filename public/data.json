@@ -1,0 +1,47 @@
+[
+    {
+        "Name": "Co Vien Lau (Ancient Vietnamese Village)",
+        "Location": "Tam Coc - Bich Dong, Ninh Binh",
+        "Area": "Ninh Hai commune, Hoa Lu district",
+        "Address": "Tam Coc - Bich Dong tourist area, Ninh Binh",
+        "Status": "Desolate and poorly maintained; fading from tourists' hearts",
+        "Cultural Value": "Famous for its peaceful northern Vietnamese countryside scenery and as a former film studio and tourist attraction",
+        "Image": "https://cdnphoto.dantri.com.vn/LNPjI7s9Or6QqIglcoBPiiMtZIc=/thumb_w/1920/2024/07/05/co-vien-lau-9-1720158589337.jpg?watermark=v1,v2 "
+    },
+    {
+        "Name": "Thanh Liem Communal House",
+        "Location": "Thanh Liem, Ninh Binh",
+        "Area": "Thanh Liem commune, Ninh Binh",
+        "Address": "Thanh Liem commune, Ninh Binh",
+        "Status": "Well-preserved but isolated",
+        "Cultural Value": "Unique architectural style with carved patterns; historically important in local rituals",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0u5AJogkfzJFPdjVKI6S-rfA13moAKPXdmg&s"
+    },
+    {
+        "Name": "Trang An Eco-tourism Area",
+        "Location": "Trang An World Heritage Complex, Ninh Binh",
+        "Area": "Trang An, Ninh Binh",
+        "Address": "Trang An, Ninh Binh",
+        "Status": "Recognized by UNESCO as a dual World Heritage site",
+        "Cultural Value": "A rich ecosystem with flooded forests, limestone mountains, and archaeological sites",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yu1_dYcMehCkmCgFSvjT5hjOXEdeZiin0Q&s"
+    },
+    {
+        "Name": "Hoa Lu Ancient Capital",
+        "Location": "Hoa Lu, Ninh Binh",
+        "Area": "Hoa Lu district, Ninh Binh",
+        "Address": "Hoa Lu, Ninh Binh",
+        "Status": "Well-preserved, historical significance",
+        "Cultural Value": "The capital of Vietnam from 968-1010, linked to the Dinh, Tien Le, and Ly dynasties",
+        "Image": "https://vietnam-tourist.com.vn/wp-content/uploads/2022/12/c%E1%BB%91-%C4%91%C3%B4-hoa-l%C6%B0.jpg"
+    },
+    {
+        "Name": "Xam Singing",
+        "Location": "Ninh Binh",
+        "Area": "Various villages in Ninh Binh",
+        "Address": "Ninh Binh",
+        "Status": "At risk, efforts to preserve",
+        "Cultural Value": "A traditional Vietnamese folk song, significant for cultural heritage and preservation efforts",
+        "Image": "https://cdn.nbtv.vn/upload/news/12_2021/x_21261413122021.jpg"
+    }
+]

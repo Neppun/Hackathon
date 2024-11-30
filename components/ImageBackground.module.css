@@ -1,0 +1,13 @@
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh; /* Adjust height as needed */
+    overflow: hidden;
+    top:0;
+    z-index: -1;
+}
+  
+.background img {
+    filter: blur(80px); /* Adjust blur radius as needed */
+    opacity: 30%;
+}

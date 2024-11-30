@@ -1,0 +1,18 @@
+.Footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 1.5em;
+    color: #C7A87E;
+}
+
+.RightSide{
+    margin-right: 2em;
+}
+
+.LeftSide{
+    margin-left: 2em;
+}

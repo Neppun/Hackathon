@@ -1,0 +1,33 @@
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next row */
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center items horizontally */
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+  
+  .gridItem {
+    flex: 1 1 calc(25% - 20px); /* Responsive item width (4 items per row with gaps) */
+    max-width: calc(25% - 20px); /* Max width for each item */
+    box-sizing: border-box; /* Ensures padding is included in width */
+  }
+  
+  .gridItem img {
+    width: 100%; /* Ensures image fills the container */
+    height: 200px; /* Fixed height for uniformity */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Add shadow for a floating effect */
+    object-fit: cover; /* Crop images while maintaining aspect ratio */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
+  }
+  
+  .gridItem img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.7); /* Enhanced shadow on hover */
+  }
+
+  .gridItem p{
+    color: #C7A87E;
+  }
+  

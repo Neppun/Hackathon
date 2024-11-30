@@ -1,0 +1,23 @@
+.DropDownOptions{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    outline-color: black;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    transform: translateY(-10%);
+    transition: transform 0.5s ease, visibility 0.3s ease;
+}
+
+.DropDownOptions a{
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1em;
+    color: #C7A87E;
+    text-decoration: none;
+}
+
+.DropDownOptions.show{
+    visibility: visible;
+    transform: translateY(-5%);
+}
