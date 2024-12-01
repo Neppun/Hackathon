@@ -26,7 +26,6 @@ export default function DropDownMenu() {
         <span
           style={{
             display: "inline-block", // Necessary for transform to work correctly
-            transform: "translateY(-10px)",
             transition: "transform 0.3s ease",
           }}
         >
