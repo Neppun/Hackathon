@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link"
 import styles from "@/components/DropDownMenu.module.css"
 import { Inter } from 'next/font/google'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+// import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 const inter = Inter({
     weight: '400',
     subsets: ['latin'],
@@ -32,13 +32,13 @@ export default function DropDownMenu() {
         >
           Active Project
         </span>{" "}
-        <KeyboardArrowDownIcon
+        {/* <KeyboardArrowDownIcon
           fontSize="large"
           style={{
             transform: isOpen ? "rotate(-180deg)" : "rotate(0deg)",
             transition: "transform 0.3s ease",
           }}
-        />
+        /> */}
       </p>
         <div className={`${styles.DropDownOptions} ${isOpen ? styles.show : ""}`}>
             <Link href={"Hoa%20Lu%20Ancient%20Capital"} style={{marginTop: "1rem", marginRight: "4.5rem"}} className={inter.className}>Hoa Lư</Link>
