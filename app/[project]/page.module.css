@@ -90,16 +90,43 @@
 }
 
 .info{
-    display:flex;
-    justify-content: space-between;
+    position: relative;
     margin-bottom: 20px;
 }
 
-.info p{
+.info .button{
+    display:flex;
+    justify-content: space-between;
+}
+
+.info .button p{
     margin: 0;
     font-size: 1.2em;
     background-color: #00000066;
     padding:10px;
     border-radius: 20px;    
+    color: #C7A87E;
+    cursor: pointer;
+}
+
+.data{
+    width: 100%;
+    position: absolute;
+    transform: translateY(-20%);
+    visibility: hidden;
+    transition: transform 0.5s ease, visibility 0.3s ease;
+}
+
+.data.show{
+    visibility: visible;
+    transform: translateY(3%);
+}
+
+.data p{
+    margin: 0;
+    font-size: 1.2em;
+    background-color: #431A0B;
+    padding:10px;
+    border-radius: 10px;    
     color: #C7A87E;
 }

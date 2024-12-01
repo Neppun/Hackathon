@@ -19,5 +19,5 @@
 
 .DropDownOptions.show{
     visibility: visible;
-    transform: translateY(-5%);
+    transform: translateY(3%);
 }

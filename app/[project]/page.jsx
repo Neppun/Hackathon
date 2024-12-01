@@ -17,6 +17,8 @@ const inter = Inter({
 
 export default function page({params}) {
   const [projectData, setProjectData] = useState(null);
+  const [isDataVisible, setIsDataVisible] = useState(false); 
+  const [data, setData] = useState(null);
   const loadProjectData = async () => {
     try {
       const response = await fetch('/data.json');
@@ -33,6 +35,11 @@ export default function page({params}) {
     loadProjectData();
   }
   const projectName = decodeURIComponent(params.project);
+
+  const handleButtonClick = (category) => {
+    setIsDataVisible(!isDataVisible); // Toggle the visibility of the .data div
+    setData(projectData[category])
+  };
   return (
     <main className={styles.main}>
       <div className={styles.title}>
@@ -53,10 +60,15 @@ export default function page({params}) {
 
         <div style={{display:"flex", justifyContent: "space-between", flexDirection:"column"}}>
           <div className={styles.info}>
-            <p className={inter.className}>Area</p>
-            <p className={inter.className}>Address</p>
-            <p className={inter.className}>Status</p>
-            <p className={inter.className} style={{marginRight:0}}>Culture Value</p>
+            <div className={styles.button}>
+              <p className={inter.className} onClick={() => handleButtonClick('Area')}>Area</p>
+              <p className={inter.className} onClick={() => handleButtonClick('Address')}>Address</p>
+              <p className={inter.className} onClick={() => handleButtonClick('Status')}>Status</p>
+              <p className={inter.className} onClick={() => handleButtonClick('Cultural Value')} style={{marginRight:0}}>Culture Value</p>
+            </div>
+            <div className={`${styles.data} ${isDataVisible ? styles.show : ""}`}>
+              <p>{data}</p>
+            </div>
           </div>
 
           <div style={{display:"flex", justifyContent: "space-between"}}>
